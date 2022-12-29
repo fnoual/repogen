@@ -1,0 +1,30 @@
+<?php
+
+/*
+* Default reposity pattern
+* Do not touch if you don't know
+* what you are doing
+*/
+
+namespace $NAMESPACE$;
+
+class $CLASSNAME$ extends Repository
+{
+    $MODEL$
+    public function findAll($pagination = 15) {
+        if ($pagination > 0) {
+
+        } else {
+
+        }
+    }
+
+
+    public function findById($id) {
+
+    }
+
+    public function store() {
+
+    }
+}

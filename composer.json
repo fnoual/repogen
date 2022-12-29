@@ -1,0 +1,27 @@
+{
+    "name": "fnoual/viewgen",
+    "description": "Laravel 9.x command line repository generator",
+    "authors": [
+        {
+            "name": "Fawzi Noual",
+            "email": "contact@fnoual.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fnoual\\Generators\\" : "src/"
+        }
+    },
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fnoual\\Generators\\RepositoryGenServiceProvider"
+            ]
+        }
+    }
+}
