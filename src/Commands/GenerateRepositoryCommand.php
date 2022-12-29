@@ -76,7 +76,7 @@ class GenerateRepositoryCommand extends Command
 
     public function getStubPath()
     {
-        return '../Stubs/Repository.stub';
+        return dirname( dirname(__FILE__) ) . '/Stubs/Repository.stub';
     }
 
     /**
